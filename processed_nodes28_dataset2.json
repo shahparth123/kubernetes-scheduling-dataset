@@ -1,0 +1,2245 @@
+{
+   "apiVersion": "v1",
+   "items": [
+      {
+         "apiVersion": "v1",
+         "kind": "Node",
+         "metadata": {
+            "name": "gke-cluster-org-commons-c2-standard-30-s-e00fa7bc-2gmq",
+            "labels": {
+               "node.kubernetes.io/instance-type": "c2-standard-30",
+               "pool": "e2-4c-16g-spot",
+               "topology.kubernetes.io/region": "us-central1",
+               "topology.kubernetes.io/zone": "us-central1-f",
+               "nodetype": "spot"
+            }
+         },
+         "spec": {},
+         "status": {
+            "capacity": {
+               "cpu": "30",
+               "ephemeral-storage": "98831908Ki",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "123658248Ki",
+               "pods": 200
+            },
+            "allocatable": {
+               "cpu": "29855m",
+               "ephemeral-storage": "47060071478",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "114327560Ki",
+               "pods": 200
+            },
+            "nodeInfo": {
+               "architecture": "amd64",
+               "bootID": "90e919b2-02ea-4a43-8d94-6833f93b2774",
+               "containerRuntimeVersion": "containerd://1.7.2",
+               "kernelVersion": "5.15.120+",
+               "kubeProxyVersion": "v1.27.4-gke.900",
+               "kubeletVersion": "v1.27.4-gke.900",
+               "machineID": "6b9047c4a4d144bca686267a93700e99",
+               "operatingSystem": "linux",
+               "osImage": "Container-Optimized OS from Google",
+               "systemUUID": "5e29f83a-ce82-4dd8-938d-fb015a59ceaf"
+            },
+            "phase": "Running",
+            "conditions": [
+               {
+                  "type": "Ready",
+                  "status": "True"
+               }
+            ]
+         }
+      },
+      {
+         "apiVersion": "v1",
+         "kind": "Node",
+         "metadata": {
+            "name": "gke-cluster-org-commons-c2-standard-30-s-e3f3da0f-92t5",
+            "labels": {
+               "node.kubernetes.io/instance-type": "c2-standard-30",
+               "pool": "e2-4c-16g-spot",
+               "topology.kubernetes.io/region": "us-central1",
+               "topology.kubernetes.io/zone": "us-central1-a",
+               "nodetype": "spot"
+            }
+         },
+         "spec": {},
+         "status": {
+            "capacity": {
+               "cpu": "30",
+               "ephemeral-storage": "98831908Ki",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "123658248Ki",
+               "pods": 200
+            },
+            "allocatable": {
+               "cpu": "29855m",
+               "ephemeral-storage": "47060071478",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "114327560Ki",
+               "pods": 200
+            },
+            "nodeInfo": {
+               "architecture": "amd64",
+               "bootID": "7ab52f6d-d82b-4788-8220-ef1e7ead6378",
+               "containerRuntimeVersion": "containerd://1.7.2",
+               "kernelVersion": "5.15.120+",
+               "kubeProxyVersion": "v1.27.4-gke.900",
+               "kubeletVersion": "v1.27.4-gke.900",
+               "machineID": "e750796d44af4823961e5096f105939e",
+               "operatingSystem": "linux",
+               "osImage": "Container-Optimized OS from Google",
+               "systemUUID": "0c9b6d0d-da55-4c99-9d17-20bc94f9aa66"
+            },
+            "phase": "Running",
+            "conditions": [
+               {
+                  "type": "Ready",
+                  "status": "True"
+               }
+            ]
+         }
+      },
+      {
+         "apiVersion": "v1",
+         "kind": "Node",
+         "metadata": {
+            "name": "gke-cluster-org-commons-e2-4c-16g-0d62b0f1-7hhq",
+            "labels": {
+               "node.kubernetes.io/instance-type": "e2-standard-4",
+               "pool": "e2-4c-16g",
+               "topology.kubernetes.io/region": "us-central1",
+               "topology.kubernetes.io/zone": "us-central1-f",
+               "nodetype": "spot"
+            }
+         },
+         "spec": {},
+         "status": {
+            "capacity": {
+               "cpu": "4",
+               "ephemeral-storage": "98831908Ki",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "16390304Ki",
+               "pods": 200
+            },
+            "allocatable": {
+               "cpu": "3920m",
+               "ephemeral-storage": "47060071478",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "13601952Ki",
+               "pods": 200
+            },
+            "nodeInfo": {
+               "architecture": "amd64",
+               "bootID": "c8be6e7e-34ae-4568-86d1-4f77f0076b2a",
+               "containerRuntimeVersion": "containerd://1.7.2",
+               "kernelVersion": "5.15.120+",
+               "kubeProxyVersion": "v1.27.4-gke.900",
+               "kubeletVersion": "v1.27.4-gke.900",
+               "machineID": "a2ea1d57c26940bc8f32a04623de590f",
+               "operatingSystem": "linux",
+               "osImage": "Container-Optimized OS from Google",
+               "systemUUID": "56da8ca4-fc89-410d-9c29-b3a087fd302d"
+            },
+            "phase": "Running",
+            "conditions": [
+               {
+                  "type": "Ready",
+                  "status": "True"
+               }
+            ]
+         }
+      },
+      {
+         "apiVersion": "v1",
+         "kind": "Node",
+         "metadata": {
+            "name": "gke-cluster-org-commons-e2-4c-16g-0d62b0f1-9g6q",
+            "labels": {
+               "node.kubernetes.io/instance-type": "e2-standard-4",
+               "pool": "e2-4c-16g",
+               "topology.kubernetes.io/region": "us-central1",
+               "topology.kubernetes.io/zone": "us-central1-f",
+               "nodetype": "ondemand"
+            }
+         },
+         "spec": {},
+         "status": {
+            "capacity": {
+               "cpu": "4",
+               "ephemeral-storage": "98831908Ki",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "16390304Ki",
+               "pods": 200
+            },
+            "allocatable": {
+               "cpu": "3920m",
+               "ephemeral-storage": "47060071478",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "13601952Ki",
+               "pods": 200
+            },
+            "nodeInfo": {
+               "architecture": "amd64",
+               "bootID": "0f07f063-da95-4d09-a2b7-2b767c6422aa",
+               "containerRuntimeVersion": "containerd://1.7.2",
+               "kernelVersion": "5.15.120+",
+               "kubeProxyVersion": "v1.27.4-gke.900",
+               "kubeletVersion": "v1.27.4-gke.900",
+               "machineID": "6fc63fd01c9c4ef98d51946eddf75bed",
+               "operatingSystem": "linux",
+               "osImage": "Container-Optimized OS from Google",
+               "systemUUID": "1c2c9064-5a1f-4200-9eca-01a1012c9df8"
+            },
+            "phase": "Running",
+            "conditions": [
+               {
+                  "type": "Ready",
+                  "status": "True"
+               }
+            ]
+         }
+      },
+      {
+         "apiVersion": "v1",
+         "kind": "Node",
+         "metadata": {
+            "name": "gke-cluster-org-commons-e2-4c-16g-0d62b0f1-ns45",
+            "labels": {
+               "node.kubernetes.io/instance-type": "e2-standard-4",
+               "pool": "e2-4c-16g",
+               "topology.kubernetes.io/region": "us-central1",
+               "topology.kubernetes.io/zone": "us-central1-f",
+               "nodetype": "spot"
+            }
+         },
+         "spec": {},
+         "status": {
+            "capacity": {
+               "cpu": "4",
+               "ephemeral-storage": "98831908Ki",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "16390304Ki",
+               "pods": 200
+            },
+            "allocatable": {
+               "cpu": "3920m",
+               "ephemeral-storage": "47060071478",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "13601952Ki",
+               "pods": 200
+            },
+            "nodeInfo": {
+               "architecture": "amd64",
+               "bootID": "945dfa37-9c4a-4b3e-99f0-434ee7d7cb42",
+               "containerRuntimeVersion": "containerd://1.7.2",
+               "kernelVersion": "5.15.120+",
+               "kubeProxyVersion": "v1.27.4-gke.900",
+               "kubeletVersion": "v1.27.4-gke.900",
+               "machineID": "14ecba4e5890423fa443c89482ec7154",
+               "operatingSystem": "linux",
+               "osImage": "Container-Optimized OS from Google",
+               "systemUUID": "bf6063ab-ed94-43a1-a737-4f53d0765785"
+            },
+            "phase": "Running",
+            "conditions": [
+               {
+                  "type": "Ready",
+                  "status": "True"
+               }
+            ]
+         }
+      },
+      {
+         "apiVersion": "v1",
+         "kind": "Node",
+         "metadata": {
+            "name": "gke-cluster-org-commons-e2-4c-16g-0d62b0f1-r9nd",
+            "labels": {
+               "node.kubernetes.io/instance-type": "e2-standard-4",
+               "pool": "e2-4c-16g",
+               "topology.kubernetes.io/region": "us-central1",
+               "topology.kubernetes.io/zone": "us-central1-f",
+               "nodetype": "ondemand"
+            }
+         },
+         "spec": {},
+         "status": {
+            "capacity": {
+               "cpu": "4",
+               "ephemeral-storage": "98831908Ki",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "16390304Ki",
+               "pods": 200
+            },
+            "allocatable": {
+               "cpu": "4",
+               "ephemeral-storage": "47060071478",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "13601952Ki",
+               "pods": 200
+            },
+            "nodeInfo": {
+               "architecture": "amd64",
+               "bootID": "21b02b4d-44f4-47d0-93a3-ac8d038452f9",
+               "containerRuntimeVersion": "containerd://1.7.2",
+               "kernelVersion": "5.15.120+",
+               "kubeProxyVersion": "v1.27.4-gke.900",
+               "kubeletVersion": "v1.27.4-gke.900",
+               "machineID": "2f41d4e6c9034631a1677f440b43281b",
+               "operatingSystem": "linux",
+               "osImage": "Container-Optimized OS from Google",
+               "systemUUID": "0f76eb4c-c3c4-4d1f-8bf6-f35435b73afd"
+            },
+            "phase": "Running",
+            "conditions": [
+               {
+                  "type": "Ready",
+                  "status": "True"
+               }
+            ]
+         }
+      },
+      {
+         "apiVersion": "v1",
+         "kind": "Node",
+         "metadata": {
+            "name": "gke-cluster-org-commons-e2-4c-16g-0d62b0f1-wzlq",
+            "labels": {
+               "node.kubernetes.io/instance-type": "e2-standard-4",
+               "pool": "e2-4c-16g",
+               "topology.kubernetes.io/region": "us-central1",
+               "topology.kubernetes.io/zone": "us-central1-f",
+               "nodetype": "spot"
+            }
+         },
+         "spec": {},
+         "status": {
+            "capacity": {
+               "cpu": "4",
+               "ephemeral-storage": "98831908Ki",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "16390304Ki",
+               "pods": 200
+            },
+            "allocatable": {
+               "cpu": "3920m",
+               "ephemeral-storage": "47060071478",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "13601952Ki",
+               "pods": 200
+            },
+            "nodeInfo": {
+               "architecture": "amd64",
+               "bootID": "82556d06-5d62-45d6-8d3e-55fa80c7e958",
+               "containerRuntimeVersion": "containerd://1.7.2",
+               "kernelVersion": "5.15.120+",
+               "kubeProxyVersion": "v1.27.4-gke.900",
+               "kubeletVersion": "v1.27.4-gke.900",
+               "machineID": "45dc59432b414d518ffecc789cfa77d3",
+               "operatingSystem": "linux",
+               "osImage": "Container-Optimized OS from Google",
+               "systemUUID": "e605921e-0948-40a8-b56f-9308baf6aa77"
+            },
+            "phase": "Running",
+            "conditions": [
+               {
+                  "type": "Ready",
+                  "status": "True"
+               }
+            ]
+         }
+      },
+      {
+         "apiVersion": "v1",
+         "kind": "Node",
+         "metadata": {
+            "name": "gke-cluster-org-commons-e2-4c-16g-76cbb1e6-b8bb",
+            "labels": {
+               "node.kubernetes.io/instance-type": "e2-standard-4",
+               "pool": "e2-4c-16g",
+               "topology.kubernetes.io/region": "us-central1",
+               "topology.kubernetes.io/zone": "us-central1-b",
+               "nodetype": "ondemand"
+            }
+         },
+         "spec": {},
+         "status": {
+            "capacity": {
+               "cpu": "4",
+               "ephemeral-storage": "98831908Ki",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "16390304Ki",
+               "pods": 200
+            },
+            "allocatable": {
+               "cpu": "3920m",
+               "ephemeral-storage": "47060071478",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "13601952Ki",
+               "pods": 200
+            },
+            "nodeInfo": {
+               "architecture": "amd64",
+               "bootID": "14281a49-1d4a-4d1a-9e5c-ebc46f1e185b",
+               "containerRuntimeVersion": "containerd://1.7.2",
+               "kernelVersion": "5.15.120+",
+               "kubeProxyVersion": "v1.27.4-gke.900",
+               "kubeletVersion": "v1.27.4-gke.900",
+               "machineID": "8164b543944f42bc8ba90f9b08725e90",
+               "operatingSystem": "linux",
+               "osImage": "Container-Optimized OS from Google",
+               "systemUUID": "e985c762-3c2d-427c-a998-ca9b35deb736"
+            },
+            "phase": "Running",
+            "conditions": [
+               {
+                  "type": "Ready",
+                  "status": "True"
+               }
+            ]
+         }
+      },
+      {
+         "apiVersion": "v1",
+         "kind": "Node",
+         "metadata": {
+            "name": "gke-cluster-org-commons-e2-4c-16g-76cbb1e6-c6bq",
+            "labels": {
+               "node.kubernetes.io/instance-type": "e2-standard-4",
+               "pool": "e2-4c-16g",
+               "topology.kubernetes.io/region": "us-central1",
+               "topology.kubernetes.io/zone": "us-central1-b",
+               "nodetype": "ondemand"
+            }
+         },
+         "spec": {},
+         "status": {
+            "capacity": {
+               "cpu": "4",
+               "ephemeral-storage": "98831908Ki",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "16390304Ki",
+               "pods": 200
+            },
+            "allocatable": {
+               "cpu": "3920m",
+               "ephemeral-storage": "47060071478",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "13601952Ki",
+               "pods": 200
+            },
+            "nodeInfo": {
+               "architecture": "amd64",
+               "bootID": "4c5347e0-38d5-4988-9a0b-65127b6d9151",
+               "containerRuntimeVersion": "containerd://1.7.2",
+               "kernelVersion": "5.15.120+",
+               "kubeProxyVersion": "v1.27.4-gke.900",
+               "kubeletVersion": "v1.27.4-gke.900",
+               "machineID": "57c8ad11826f4b8cb3e3dc1a67eaf550",
+               "operatingSystem": "linux",
+               "osImage": "Container-Optimized OS from Google",
+               "systemUUID": "040ab2e4-4cef-4342-b273-d3874b55ad40"
+            },
+            "phase": "Running",
+            "conditions": [
+               {
+                  "type": "Ready",
+                  "status": "True"
+               }
+            ]
+         }
+      },
+      {
+         "apiVersion": "v1",
+         "kind": "Node",
+         "metadata": {
+            "name": "gke-cluster-org-commons-e2-4c-16g-76cbb1e6-j2qm",
+            "labels": {
+               "node.kubernetes.io/instance-type": "e2-standard-4",
+               "pool": "e2-4c-16g",
+               "topology.kubernetes.io/region": "us-central1",
+               "topology.kubernetes.io/zone": "us-central1-b",
+               "nodetype": "spot"
+            }
+         },
+         "spec": {},
+         "status": {
+            "capacity": {
+               "cpu": "4",
+               "ephemeral-storage": "98831908Ki",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "16390304Ki",
+               "pods": 200
+            },
+            "allocatable": {
+               "cpu": "3920m",
+               "ephemeral-storage": "47060071478",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "13601952Ki",
+               "pods": 200
+            },
+            "nodeInfo": {
+               "architecture": "amd64",
+               "bootID": "b1c777a4-24f1-4a90-8776-0e2e0780079e",
+               "containerRuntimeVersion": "containerd://1.7.2",
+               "kernelVersion": "5.15.120+",
+               "kubeProxyVersion": "v1.27.4-gke.900",
+               "kubeletVersion": "v1.27.4-gke.900",
+               "machineID": "02f7680f74a849da826aa4764ac262c7",
+               "operatingSystem": "linux",
+               "osImage": "Container-Optimized OS from Google",
+               "systemUUID": "196e91da-1267-434e-ba7e-36894024d588"
+            },
+            "phase": "Running",
+            "conditions": [
+               {
+                  "type": "Ready",
+                  "status": "True"
+               }
+            ]
+         }
+      },
+      {
+         "apiVersion": "v1",
+         "kind": "Node",
+         "metadata": {
+            "name": "gke-cluster-org-commons-e2-4c-16g-76cbb1e6-zpwd",
+            "labels": {
+               "node.kubernetes.io/instance-type": "e2-standard-4",
+               "pool": "e2-4c-16g",
+               "topology.kubernetes.io/region": "us-central1",
+               "topology.kubernetes.io/zone": "us-central1-b",
+               "nodetype": "ondemand"
+            }
+         },
+         "spec": {},
+         "status": {
+            "capacity": {
+               "cpu": "4",
+               "ephemeral-storage": "98831908Ki",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "16390304Ki",
+               "pods": 200
+            },
+            "allocatable": {
+               "cpu": "3920m",
+               "ephemeral-storage": "47060071478",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "13601952Ki",
+               "pods": 200
+            },
+            "nodeInfo": {
+               "architecture": "amd64",
+               "bootID": "52154605-6fac-40d6-bb4f-77ff5cef6cdf",
+               "containerRuntimeVersion": "containerd://1.7.2",
+               "kernelVersion": "5.15.120+",
+               "kubeProxyVersion": "v1.27.4-gke.900",
+               "kubeletVersion": "v1.27.4-gke.900",
+               "machineID": "237a01889ddb461e87725c3418baa8a6",
+               "operatingSystem": "linux",
+               "osImage": "Container-Optimized OS from Google",
+               "systemUUID": "2b8cdeed-93e3-48a0-85cc-27ffcdfcfed0"
+            },
+            "phase": "Running",
+            "conditions": [
+               {
+                  "type": "Ready",
+                  "status": "True"
+               }
+            ]
+         }
+      },
+      {
+         "apiVersion": "v1",
+         "kind": "Node",
+         "metadata": {
+            "name": "gke-cluster-org-commons-e2-4c-16g-d71341d8-ktxw",
+            "labels": {
+               "node.kubernetes.io/instance-type": "e2-standard-4",
+               "pool": "e2-4c-16g",
+               "topology.kubernetes.io/region": "us-central1",
+               "topology.kubernetes.io/zone": "us-central1-a",
+               "nodetype": "ondemand"
+            }
+         },
+         "spec": {},
+         "status": {
+            "capacity": {
+               "cpu": "4",
+               "ephemeral-storage": "98831908Ki",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "16390304Ki",
+               "pods": 200
+            },
+            "allocatable": {
+               "cpu": "3920m",
+               "ephemeral-storage": "47060071478",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "13601952Ki",
+               "pods": 200
+            },
+            "nodeInfo": {
+               "architecture": "amd64",
+               "bootID": "8f2d05de-459f-421a-9b62-4b67fd63ab62",
+               "containerRuntimeVersion": "containerd://1.7.2",
+               "kernelVersion": "5.15.120+",
+               "kubeProxyVersion": "v1.27.4-gke.900",
+               "kubeletVersion": "v1.27.4-gke.900",
+               "machineID": "9ca90f9906ab4065b80e3a06594425dc",
+               "operatingSystem": "linux",
+               "osImage": "Container-Optimized OS from Google",
+               "systemUUID": "3967dcce-e2b9-408b-b858-a35638fb2724"
+            },
+            "phase": "Running",
+            "conditions": [
+               {
+                  "type": "Ready",
+                  "status": "True"
+               }
+            ]
+         }
+      },
+      {
+         "apiVersion": "v1",
+         "kind": "Node",
+         "metadata": {
+            "name": "gke-cluster-org-commons-e2-4c-16g-d71341d8-rq28",
+            "labels": {
+               "node.kubernetes.io/instance-type": "e2-standard-4",
+               "pool": "e2-4c-16g",
+               "topology.kubernetes.io/region": "us-central1",
+               "topology.kubernetes.io/zone": "us-central1-a",
+               "nodetype": "spot"
+            }
+         },
+         "spec": {},
+         "status": {
+            "capacity": {
+               "cpu": "4",
+               "ephemeral-storage": "98831908Ki",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "16390304Ki",
+               "pods": 200
+            },
+            "allocatable": {
+               "cpu": "3920m",
+               "ephemeral-storage": "47060071478",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "13601952Ki",
+               "pods": 200
+            },
+            "nodeInfo": {
+               "architecture": "amd64",
+               "bootID": "d8e8c396-cacb-48cd-b6f0-1e317c762bae",
+               "containerRuntimeVersion": "containerd://1.7.2",
+               "kernelVersion": "5.15.120+",
+               "kubeProxyVersion": "v1.27.4-gke.900",
+               "kubeletVersion": "v1.27.4-gke.900",
+               "machineID": "40a935372d3d4478a7d78e1de747f22d",
+               "operatingSystem": "linux",
+               "osImage": "Container-Optimized OS from Google",
+               "systemUUID": "8ef7c6e7-2548-4828-b23d-347b63faa60f"
+            },
+            "phase": "Running",
+            "conditions": [
+               {
+                  "type": "Ready",
+                  "status": "True"
+               }
+            ]
+         }
+      },
+      {
+         "apiVersion": "v1",
+         "kind": "Node",
+         "metadata": {
+            "name": "gke-cluster-org-commons-e2-4c-16g-d71341d8-s6fm",
+            "labels": {
+               "node.kubernetes.io/instance-type": "e2-standard-4",
+               "pool": "e2-4c-16g",
+               "topology.kubernetes.io/region": "us-central1",
+               "topology.kubernetes.io/zone": "us-central1-a",
+               "nodetype": "ondemand"
+            }
+         },
+         "spec": {},
+         "status": {
+            "capacity": {
+               "cpu": "4",
+               "ephemeral-storage": "98831908Ki",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "16390304Ki",
+               "pods": 200
+            },
+            "allocatable": {
+               "cpu": "3920m",
+               "ephemeral-storage": "47060071478",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "13601952Ki",
+               "pods": 200
+            },
+            "nodeInfo": {
+               "architecture": "amd64",
+               "bootID": "c2a34194-42a7-43c6-a793-fbc710ea5b10",
+               "containerRuntimeVersion": "containerd://1.7.2",
+               "kernelVersion": "5.15.120+",
+               "kubeProxyVersion": "v1.27.4-gke.900",
+               "kubeletVersion": "v1.27.4-gke.900",
+               "machineID": "f870da7d3eed417e8f935be531f84930",
+               "operatingSystem": "linux",
+               "osImage": "Container-Optimized OS from Google",
+               "systemUUID": "143665f4-c55e-4747-bb32-3d30aa3afab7"
+            },
+            "phase": "Running",
+            "conditions": [
+               {
+                  "type": "Ready",
+                  "status": "True"
+               }
+            ]
+         }
+      },
+      {
+         "apiVersion": "v1",
+         "kind": "Node",
+         "metadata": {
+            "name": "gke-cluster-org-commons-e2-4c-16g-d71341d8-szwf",
+            "labels": {
+               "node.kubernetes.io/instance-type": "e2-standard-4",
+               "pool": "e2-4c-16g",
+               "topology.kubernetes.io/region": "us-central1",
+               "topology.kubernetes.io/zone": "us-central1-a",
+               "nodetype": "spot"
+            }
+         },
+         "spec": {},
+         "status": {
+            "capacity": {
+               "cpu": "4",
+               "ephemeral-storage": "98831908Ki",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "16390304Ki",
+               "pods": 200
+            },
+            "allocatable": {
+               "cpu": "3920m",
+               "ephemeral-storage": "47060071478",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "13601952Ki",
+               "pods": 200
+            },
+            "nodeInfo": {
+               "architecture": "amd64",
+               "bootID": "775f8f73-2d02-432b-9852-57c8f481e41b",
+               "containerRuntimeVersion": "containerd://1.7.2",
+               "kernelVersion": "5.15.120+",
+               "kubeProxyVersion": "v1.27.4-gke.900",
+               "kubeletVersion": "v1.27.4-gke.900",
+               "machineID": "8d7e7519fadc448b844067d9e6eee49d",
+               "operatingSystem": "linux",
+               "osImage": "Container-Optimized OS from Google",
+               "systemUUID": "13ad5024-df30-41c0-83a2-1e441c9dc7ca"
+            },
+            "phase": "Running",
+            "conditions": [
+               {
+                  "type": "Ready",
+                  "status": "True"
+               }
+            ]
+         }
+      },
+      {
+         "apiVersion": "v1",
+         "kind": "Node",
+         "metadata": {
+            "name": "gke-cluster-org-commons-e2-4c-16g-d71341d8-t2xh",
+            "labels": {
+               "node.kubernetes.io/instance-type": "e2-standard-4",
+               "pool": "e2-4c-16g",
+               "topology.kubernetes.io/region": "us-central1",
+               "topology.kubernetes.io/zone": "us-central1-a",
+               "nodetype": "ondemand"
+            }
+         },
+         "spec": {},
+         "status": {
+            "capacity": {
+               "cpu": "4",
+               "ephemeral-storage": "98831908Ki",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "16390304Ki",
+               "pods": 200
+            },
+            "allocatable": {
+               "cpu": "3920m",
+               "ephemeral-storage": "47060071478",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "13601952Ki",
+               "pods": 200
+            },
+            "nodeInfo": {
+               "architecture": "amd64",
+               "bootID": "af289b62-1793-49a8-a0c6-a136acbd44cc",
+               "containerRuntimeVersion": "containerd://1.7.2",
+               "kernelVersion": "5.15.120+",
+               "kubeProxyVersion": "v1.27.4-gke.900",
+               "kubeletVersion": "v1.27.4-gke.900",
+               "machineID": "bd2e901f23694e1ca5b6fc8c6977fb80",
+               "operatingSystem": "linux",
+               "osImage": "Container-Optimized OS from Google",
+               "systemUUID": "73be5b9e-86ba-4b47-aab3-7be0ea05f116"
+            },
+            "phase": "Running",
+            "conditions": [
+               {
+                  "type": "Ready",
+                  "status": "True"
+               }
+            ]
+         }
+      },
+      {
+         "apiVersion": "v1",
+         "kind": "Node",
+         "metadata": {
+            "name": "gke-cluster-org-commons-e2-4c-16g-d71341d8-zmkm",
+            "labels": {
+               "node.kubernetes.io/instance-type": "e2-standard-4",
+               "pool": "e2-4c-16g",
+               "topology.kubernetes.io/region": "us-central1",
+               "topology.kubernetes.io/zone": "us-central1-a",
+               "nodetype": "ondemand"
+            }
+         },
+         "spec": {},
+         "status": {
+            "capacity": {
+               "cpu": "4",
+               "ephemeral-storage": "98831908Ki",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "16390304Ki",
+               "pods": 200
+            },
+            "allocatable": {
+               "cpu": "3920m",
+               "ephemeral-storage": "47060071478",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "13601952Ki",
+               "pods": 200
+            },
+            "nodeInfo": {
+               "architecture": "amd64",
+               "bootID": "ad5babcc-3990-47e1-bafa-5ae4018d1d44",
+               "containerRuntimeVersion": "containerd://1.7.2",
+               "kernelVersion": "5.15.120+",
+               "kubeProxyVersion": "v1.27.4-gke.900",
+               "kubeletVersion": "v1.27.4-gke.900",
+               "machineID": "2b4e6a37aad44d1497b1462c6ea4fb3e",
+               "operatingSystem": "linux",
+               "osImage": "Container-Optimized OS from Google",
+               "systemUUID": "de68cd30-c093-435c-ab3d-e74e6132ecbf"
+            },
+            "phase": "Running",
+            "conditions": [
+               {
+                  "type": "Ready",
+                  "status": "True"
+               }
+            ]
+         }
+      },
+      {
+         "apiVersion": "v1",
+         "kind": "Node",
+         "metadata": {
+            "name": "gke-cluster-org-commons-e2-4c-16g-ff4d3e27-2w7w",
+            "labels": {
+               "node.kubernetes.io/instance-type": "e2-standard-4",
+               "pool": "e2-4c-16g",
+               "topology.kubernetes.io/region": "us-central1",
+               "topology.kubernetes.io/zone": "us-central1-c",
+               "nodetype": "ondemand"
+            }
+         },
+         "spec": {},
+         "status": {
+            "capacity": {
+               "cpu": "4",
+               "ephemeral-storage": "98831908Ki",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "16390304Ki",
+               "pods": 200
+            },
+            "allocatable": {
+               "cpu": "3920m",
+               "ephemeral-storage": "47060071478",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "13601952Ki",
+               "pods": 200
+            },
+            "nodeInfo": {
+               "architecture": "amd64",
+               "bootID": "d14003de-70dc-44d9-bf2c-f28d841b7a5b",
+               "containerRuntimeVersion": "containerd://1.7.2",
+               "kernelVersion": "5.15.120+",
+               "kubeProxyVersion": "v1.27.4-gke.900",
+               "kubeletVersion": "v1.27.4-gke.900",
+               "machineID": "13d55a94b46442cf9cf21fb406d26791",
+               "operatingSystem": "linux",
+               "osImage": "Container-Optimized OS from Google",
+               "systemUUID": "7f59656d-d8b3-4d4c-b4a9-b16859ee6669"
+            },
+            "phase": "Running",
+            "conditions": [
+               {
+                  "type": "Ready",
+                  "status": "True"
+               }
+            ]
+         }
+      },
+      {
+         "apiVersion": "v1",
+         "kind": "Node",
+         "metadata": {
+            "name": "gke-cluster-org-commons-e2-4c-16g-ff4d3e27-72tw",
+            "labels": {
+               "node.kubernetes.io/instance-type": "e2-standard-4",
+               "pool": "e2-4c-16g",
+               "topology.kubernetes.io/region": "us-central1",
+               "topology.kubernetes.io/zone": "us-central1-c",
+               "nodetype": "ondemand"
+            }
+         },
+         "spec": {},
+         "status": {
+            "capacity": {
+               "cpu": "4",
+               "ephemeral-storage": "98831908Ki",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "16390304Ki",
+               "pods": 200
+            },
+            "allocatable": {
+               "cpu": "3920m",
+               "ephemeral-storage": "47060071478",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "13601952Ki",
+               "pods": 200
+            },
+            "nodeInfo": {
+               "architecture": "amd64",
+               "bootID": "c7354d60-7513-48c8-bbb1-c444c0f56dba",
+               "containerRuntimeVersion": "containerd://1.7.2",
+               "kernelVersion": "5.15.120+",
+               "kubeProxyVersion": "v1.27.4-gke.900",
+               "kubeletVersion": "v1.27.4-gke.900",
+               "machineID": "3c33605cbb984f258fe957bd8cb3be3f",
+               "operatingSystem": "linux",
+               "osImage": "Container-Optimized OS from Google",
+               "systemUUID": "947929c5-aee1-441f-a998-2cd0a39d42f8"
+            },
+            "phase": "Running",
+            "conditions": [
+               {
+                  "type": "Ready",
+                  "status": "True"
+               }
+            ]
+         }
+      },
+      {
+         "apiVersion": "v1",
+         "kind": "Node",
+         "metadata": {
+            "name": "gke-cluster-org-commons-e2-4c-16g-ff4d3e27-k52c",
+            "labels": {
+               "node.kubernetes.io/instance-type": "e2-standard-4",
+               "pool": "e2-4c-16g",
+               "topology.kubernetes.io/region": "us-central1",
+               "topology.kubernetes.io/zone": "us-central1-c",
+               "nodetype": "ondemand"
+            }
+         },
+         "spec": {},
+         "status": {
+            "capacity": {
+               "cpu": "4",
+               "ephemeral-storage": "98831908Ki",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "16390304Ki",
+               "pods": 200
+            },
+            "allocatable": {
+               "cpu": "3920m",
+               "ephemeral-storage": "47060071478",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "13601952Ki",
+               "pods": 200
+            },
+            "nodeInfo": {
+               "architecture": "amd64",
+               "bootID": "b86b866a-e40e-4cc8-966c-523f6fb6424c",
+               "containerRuntimeVersion": "containerd://1.7.2",
+               "kernelVersion": "5.15.120+",
+               "kubeProxyVersion": "v1.27.4-gke.900",
+               "kubeletVersion": "v1.27.4-gke.900",
+               "machineID": "5257a2861ad04d12a26946ac8484a0b5",
+               "operatingSystem": "linux",
+               "osImage": "Container-Optimized OS from Google",
+               "systemUUID": "8a9b9fdf-110f-4c4f-b13d-6c099b866c16"
+            },
+            "phase": "Running",
+            "conditions": [
+               {
+                  "type": "Ready",
+                  "status": "True"
+               }
+            ]
+         }
+      },
+      {
+         "apiVersion": "v1",
+         "kind": "Node",
+         "metadata": {
+            "name": "gke-cluster-org-commons-e2-4c-16g-ff4d3e27-xbrt",
+            "labels": {
+               "node.kubernetes.io/instance-type": "e2-standard-4",
+               "pool": "e2-4c-16g",
+               "topology.kubernetes.io/region": "us-central1",
+               "topology.kubernetes.io/zone": "us-central1-c",
+               "nodetype": "ondemand"
+            }
+         },
+         "spec": {},
+         "status": {
+            "capacity": {
+               "cpu": "4",
+               "ephemeral-storage": "98831908Ki",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "16390296Ki",
+               "pods": 200
+            },
+            "allocatable": {
+               "cpu": "3920m",
+               "ephemeral-storage": "47060071478",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "13601944Ki",
+               "pods": 200
+            },
+            "nodeInfo": {
+               "architecture": "amd64",
+               "bootID": "1dca9fd3-be33-4863-88ea-4c676ea9a0cd",
+               "containerRuntimeVersion": "containerd://1.7.2",
+               "kernelVersion": "5.15.120+",
+               "kubeProxyVersion": "v1.27.4-gke.900",
+               "kubeletVersion": "v1.27.4-gke.900",
+               "machineID": "01fecdda125b46c6b0d9e536d5b8e47f",
+               "operatingSystem": "linux",
+               "osImage": "Container-Optimized OS from Google",
+               "systemUUID": "7bd3e29c-ea56-4cad-bffd-6a4a24dc7366"
+            },
+            "phase": "Running",
+            "conditions": [
+               {
+                  "type": "Ready",
+                  "status": "True"
+               }
+            ]
+         }
+      },
+      {
+         "apiVersion": "v1",
+         "kind": "Node",
+         "metadata": {
+            "name": "gke-cluster-org-commons-e2-4c-16g-ff4d3e27-zrdh",
+            "labels": {
+               "node.kubernetes.io/instance-type": "e2-standard-4",
+               "pool": "e2-4c-16g",
+               "topology.kubernetes.io/region": "us-central1",
+               "topology.kubernetes.io/zone": "us-central1-c",
+               "nodetype": "ondemand"
+            }
+         },
+         "spec": {},
+         "status": {
+            "capacity": {
+               "cpu": "4",
+               "ephemeral-storage": "98831908Ki",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "16390304Ki",
+               "pods": 200
+            },
+            "allocatable": {
+               "cpu": "3920m",
+               "ephemeral-storage": "47060071478",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "13601952Ki",
+               "pods": 200
+            },
+            "nodeInfo": {
+               "architecture": "amd64",
+               "bootID": "538c3997-3d4c-49e9-8e85-4f1b4c96bf19",
+               "containerRuntimeVersion": "containerd://1.7.2",
+               "kernelVersion": "5.15.120+",
+               "kubeProxyVersion": "v1.27.4-gke.900",
+               "kubeletVersion": "v1.27.4-gke.900",
+               "machineID": "bc3c59e982894bb9894bc43a447559c2",
+               "operatingSystem": "linux",
+               "osImage": "Container-Optimized OS from Google",
+               "systemUUID": "3b2d4ea5-4199-4613-b5b9-8d920aa0f569"
+            },
+            "phase": "Running",
+            "conditions": [
+               {
+                  "type": "Ready",
+                  "status": "True"
+               }
+            ]
+         }
+      },
+      {
+         "apiVersion": "v1",
+         "kind": "Node",
+         "metadata": {
+            "name": "gke-cluster-org-commons-e2-8c-32g-a8db2458-fskg",
+            "labels": {
+               "node.kubernetes.io/instance-type": "e2-standard-8",
+               "pool": "e2-8c-32g",
+               "topology.kubernetes.io/region": "us-central1",
+               "topology.kubernetes.io/zone": "us-central1-a",
+               "nodetype": "spot"
+            }
+         },
+         "spec": {},
+         "status": {
+            "capacity": {
+               "cpu": "8",
+               "ephemeral-storage": "98831908Ki",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "32879828Ki",
+               "pods": 200
+            },
+            "allocatable": {
+               "cpu": "7910m",
+               "ephemeral-storage": "47060071478",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "29084884Ki",
+               "pods": 200
+            },
+            "nodeInfo": {
+               "architecture": "amd64",
+               "bootID": "2d0448a9-b5d5-4959-8f08-2140ab1ccdc1",
+               "containerRuntimeVersion": "containerd://1.7.2",
+               "kernelVersion": "5.15.120+",
+               "kubeProxyVersion": "v1.27.4-gke.900",
+               "kubeletVersion": "v1.27.4-gke.900",
+               "machineID": "2f60799872024bbc8d6003ba57e0719e",
+               "operatingSystem": "linux",
+               "osImage": "Container-Optimized OS from Google",
+               "systemUUID": "0176e029-494f-42a3-b402-31d9ad574428"
+            },
+            "phase": "Running",
+            "conditions": [
+               {
+                  "type": "Ready",
+                  "status": "True"
+               }
+            ]
+         }
+      },
+      {
+         "apiVersion": "v1",
+         "kind": "Node",
+         "metadata": {
+            "name": "gke-cluster-org-commons-e2-8c-32g-a8db2458-hmxp",
+            "labels": {
+               "node.kubernetes.io/instance-type": "e2-standard-8",
+               "pool": "e2-8c-32g",
+               "topology.kubernetes.io/region": "us-central1",
+               "topology.kubernetes.io/zone": "us-central1-a",
+               "nodetype": "spot"
+            }
+         },
+         "spec": {},
+         "status": {
+            "capacity": {
+               "cpu": "8",
+               "ephemeral-storage": "98831908Ki",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "32879828Ki",
+               "pods": 200
+            },
+            "allocatable": {
+               "cpu": "7910m",
+               "ephemeral-storage": "47060071478",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "29084884Ki",
+               "pods": 200
+            },
+            "nodeInfo": {
+               "architecture": "amd64",
+               "bootID": "8906edfc-2708-411b-94f9-c6cc6b56c0b0",
+               "containerRuntimeVersion": "containerd://1.7.2",
+               "kernelVersion": "5.15.120+",
+               "kubeProxyVersion": "v1.27.4-gke.900",
+               "kubeletVersion": "v1.27.4-gke.900",
+               "machineID": "058b9722bbaa4c2a92f98e696762852e",
+               "operatingSystem": "linux",
+               "osImage": "Container-Optimized OS from Google",
+               "systemUUID": "474e674d-6904-4f95-b2b8-f6e979e6b3e8"
+            },
+            "phase": "Running",
+            "conditions": [
+               {
+                  "type": "Ready",
+                  "status": "True"
+               }
+            ]
+         }
+      },
+      {
+         "apiVersion": "v1",
+         "kind": "Node",
+         "metadata": {
+            "name": "gke-cluster-org-commons-e2-8c-32g-a8db2458-vk8k",
+            "labels": {
+               "node.kubernetes.io/instance-type": "e2-standard-8",
+               "pool": "e2-8c-32g",
+               "topology.kubernetes.io/region": "us-central1",
+               "topology.kubernetes.io/zone": "us-central1-a",
+               "nodetype": "spot"
+            }
+         },
+         "spec": {},
+         "status": {
+            "capacity": {
+               "cpu": "8",
+               "ephemeral-storage": "98831908Ki",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "32879828Ki",
+               "pods": 200
+            },
+            "allocatable": {
+               "cpu": "7910m",
+               "ephemeral-storage": "47060071478",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "29084884Ki",
+               "pods": 200
+            },
+            "nodeInfo": {
+               "architecture": "amd64",
+               "bootID": "5bc52e11-eba8-47ff-abdf-8dcfc3707469",
+               "containerRuntimeVersion": "containerd://1.7.2",
+               "kernelVersion": "5.15.120+",
+               "kubeProxyVersion": "v1.27.4-gke.900",
+               "kubeletVersion": "v1.27.4-gke.900",
+               "machineID": "91c95b8fd3ea4d29930709186bb4fca9",
+               "operatingSystem": "linux",
+               "osImage": "Container-Optimized OS from Google",
+               "systemUUID": "1b679d09-a7b7-428a-8931-db0df32ab50f"
+            },
+            "phase": "Running",
+            "conditions": [
+               {
+                  "type": "Ready",
+                  "status": "True"
+               }
+            ]
+         }
+      },
+      {
+         "apiVersion": "v1",
+         "kind": "Node",
+         "metadata": {
+            "name": "gke-cluster-org-commons-gitlab-runners-p-b2196c5d-thw8",
+            "labels": {
+               "node.kubernetes.io/instance-type": "e2-standard-16",
+               "pool": "gitlab-runners-pool",
+               "topology.kubernetes.io/region": "us-central1",
+               "topology.kubernetes.io/zone": "us-central1-a",
+               "nodetype": "spot"
+            }
+         },
+         "spec": {},
+         "status": {
+            "capacity": {
+               "cpu": "16",
+               "ephemeral-storage": "98831908Ki",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "65858880Ki",
+               "pods": 200
+            },
+            "allocatable": {
+               "cpu": "15890m",
+               "ephemeral-storage": "47060071478",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "60050752Ki",
+               "pods": 200
+            },
+            "nodeInfo": {
+               "architecture": "amd64",
+               "bootID": "8e5045c7-8dc1-40ac-a4a7-c0d2a54b1a14",
+               "containerRuntimeVersion": "containerd://1.7.0",
+               "kernelVersion": "5.15.109+",
+               "kubeProxyVersion": "v1.27.3-gke.1700",
+               "kubeletVersion": "v1.27.3-gke.1700",
+               "machineID": "de0665c5251f4b1b9d2c9f4f810a9e65",
+               "operatingSystem": "linux",
+               "osImage": "Container-Optimized OS from Google",
+               "systemUUID": "16733c80-c6bb-415b-b52b-38b7d624deb3"
+            },
+            "phase": "Running",
+            "conditions": [
+               {
+                  "type": "Ready",
+                  "status": "True"
+               }
+            ]
+         }
+      },
+      {
+         "apiVersion": "v1",
+         "kind": "Node",
+         "metadata": {
+            "name": "gke-cluster-org-commons-internal-e2-8c-3-346df3ec-9lha",
+            "labels": {
+               "node.kubernetes.io/instance-type": "e2-standard-8",
+               "pool": "internal-e2-8c-32g",
+               "topology.kubernetes.io/region": "us-central1",
+               "topology.kubernetes.io/zone": "us-central1-a",
+               "nodetype": "spot"
+            }
+         },
+         "spec": {},
+         "status": {
+            "capacity": {
+               "cpu": "8",
+               "ephemeral-storage": "98831908Ki",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "32879872Ki",
+               "pods": 200
+            },
+            "allocatable": {
+               "cpu": "7910m",
+               "ephemeral-storage": "47060071478",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "29084928Ki",
+               "pods": 200
+            },
+            "nodeInfo": {
+               "architecture": "amd64",
+               "bootID": "cde9688c-ace1-4ae3-a707-5fb0b1a78d12",
+               "containerRuntimeVersion": "containerd://1.7.0",
+               "kernelVersion": "5.15.109+",
+               "kubeProxyVersion": "v1.27.3-gke.100",
+               "kubeletVersion": "v1.27.3-gke.100",
+               "machineID": "0056e81eba144c8aa79ed854041c734e",
+               "operatingSystem": "linux",
+               "osImage": "Container-Optimized OS from Google",
+               "systemUUID": "c491f825-0bb8-4e45-96ea-378b5f578fc7"
+            },
+            "phase": "Running",
+            "conditions": [
+               {
+                  "type": "Ready",
+                  "status": "True"
+               }
+            ]
+         }
+      },
+      {
+         "apiVersion": "v1",
+         "kind": "Node",
+         "metadata": {
+            "name": "gke-cluster-org-commons-internal-e2-8c-3-346df3ec-x3hr",
+            "labels": {
+               "node.kubernetes.io/instance-type": "e2-standard-8",
+               "pool": "internal-e2-8c-32g",
+               "topology.kubernetes.io/region": "us-central1",
+               "topology.kubernetes.io/zone": "us-central1-a",
+               "nodetype": "spot"
+            }
+         },
+         "spec": {},
+         "status": {
+            "capacity": {
+               "cpu": "8",
+               "ephemeral-storage": "98831908Ki",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "32879872Ki",
+               "pods": 200
+            },
+            "allocatable": {
+               "cpu": "7910m",
+               "ephemeral-storage": "47060071478",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "29084928Ki",
+               "pods": 200
+            },
+            "nodeInfo": {
+               "architecture": "amd64",
+               "bootID": "4a94b702-7456-495c-8ef1-0da0746af1b9",
+               "containerRuntimeVersion": "containerd://1.7.0",
+               "kernelVersion": "5.15.109+",
+               "kubeProxyVersion": "v1.27.3-gke.100",
+               "kubeletVersion": "v1.27.3-gke.100",
+               "machineID": "9da3cf6e9d6e437f8cd427de9a180c8c",
+               "operatingSystem": "linux",
+               "osImage": "Container-Optimized OS from Google",
+               "systemUUID": "696cdbe5-e689-49e4-9c50-0e47b3e6219f"
+            },
+            "phase": "Running",
+            "conditions": [
+               {
+                  "type": "Ready",
+                  "status": "True"
+               }
+            ]
+         }
+      },
+      {
+         "apiVersion": "v1",
+         "kind": "Node",
+         "metadata": {
+            "name": "gke-cluster-org-commons-n2d-standard-16-f2352281-5s0f",
+            "labels": {
+               "node.kubernetes.io/instance-type": "n2d-standard-16",
+               "pool": "n2d-standard-16",
+               "topology.kubernetes.io/region": "us-central1",
+               "topology.kubernetes.io/zone": "us-central1-a",
+               "nodetype": "spot"
+            }
+         },
+         "spec": {},
+         "status": {
+            "capacity": {
+               "cpu": "16",
+               "ephemeral-storage": "98831908Ki",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "65858880Ki",
+               "pods": 200
+            },
+            "allocatable": {
+               "cpu": "15890m",
+               "ephemeral-storage": "47060071478",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "60050752Ki",
+               "pods": 200
+            },
+            "nodeInfo": {
+               "architecture": "amd64",
+               "bootID": "971685c7-b8cc-4937-9cc5-4116c1c17b2d",
+               "containerRuntimeVersion": "containerd://1.7.2",
+               "kernelVersion": "5.15.120+",
+               "kubeProxyVersion": "v1.27.4-gke.900",
+               "kubeletVersion": "v1.27.4-gke.900",
+               "machineID": "9105901e61ef409193a6861ad3afd062",
+               "operatingSystem": "linux",
+               "osImage": "Container-Optimized OS from Google",
+               "systemUUID": "67e2b781-d838-4447-9894-d4e96e1bbc1c"
+            },
+            "phase": "Running",
+            "conditions": [
+               {
+                  "type": "Ready",
+                  "status": "True"
+               }
+            ]
+         }
+      },
+      {
+         "apiVersion": "v1",
+         "kind": "Node",
+         "metadata": {
+            "name": "gke-cluster-org-commons-e2-8c-32g-a8db2458-pts1",
+            "labels": {
+               "node.kubernetes.io/instance-type": "e2-standard-8",
+               "pool": "e2-8c-32g",
+               "topology.kubernetes.io/region": "us-central1",
+               "topology.kubernetes.io/zone": "us-central1-a",
+               "nodetype": "spot"
+            }
+         },
+         "spec": {},
+         "status": {
+            "capacity": {
+               "cpu": "8",
+               "ephemeral-storage": "98831908Ki",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "32879828Ki",
+               "pods": 200
+            },
+            "allocatable": {
+               "cpu": "7910m",
+               "ephemeral-storage": "47060071478",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "29084884Ki",
+               "pods": 200
+            },
+            "nodeInfo": {
+               "architecture": "amd64",
+               "bootID": "ca4d5f89-51a6-48fb-b979-fe78167dc3fe",
+               "containerRuntimeVersion": "containerd://1.7.2",
+               "kernelVersion": "5.15.120+",
+               "kubeProxyVersion": "v1.27.4-gke.900",
+               "kubeletVersion": "v1.27.4-gke.900",
+               "machineID": "74d5705546a7419a915593c7c65b6579",
+               "operatingSystem": "linux",
+               "osImage": "Container-Optimized OS from Google",
+               "systemUUID": "91c8f0e0-2c4d-495b-b13e-84d0923c1900"
+            },
+            "phase": "Running",
+            "conditions": [
+               {
+                  "type": "Ready",
+                  "status": "True"
+               }
+            ]
+         }
+      },
+      {
+         "apiVersion": "v1",
+         "kind": "Node",
+         "metadata": {
+            "name": "gke-cluster-org-commons-e2-8c-32g-a8db2458-pts2",
+            "labels": {
+               "node.kubernetes.io/instance-type": "e2-standard-8",
+               "pool": "e2-8c-32g",
+               "topology.kubernetes.io/region": "us-central1",
+               "topology.kubernetes.io/zone": "us-central1-a",
+               "nodetype": "spot"
+            }
+         },
+         "spec": {},
+         "status": {
+            "capacity": {
+               "cpu": "8",
+               "ephemeral-storage": "98831908Ki",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "32879828Ki",
+               "pods": 200
+            },
+            "allocatable": {
+               "cpu": "7910m",
+               "ephemeral-storage": "47060071478",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "29084884Ki",
+               "pods": 200
+            },
+            "nodeInfo": {
+               "architecture": "amd64",
+               "bootID": "b80c779b-3962-4b2f-a4d2-94b08c0fcd93",
+               "containerRuntimeVersion": "containerd://1.7.2",
+               "kernelVersion": "5.15.120+",
+               "kubeProxyVersion": "v1.27.4-gke.900",
+               "kubeletVersion": "v1.27.4-gke.900",
+               "machineID": "63183f1f670641238a996a1a8a1738ed",
+               "operatingSystem": "linux",
+               "osImage": "Container-Optimized OS from Google",
+               "systemUUID": "29642bfc-4488-4e5f-8534-4d914576e2c5"
+            },
+            "phase": "Running",
+            "conditions": [
+               {
+                  "type": "Ready",
+                  "status": "True"
+               }
+            ]
+         }
+      },
+      {
+         "apiVersion": "v1",
+         "kind": "Node",
+         "metadata": {
+            "name": "gke-cluster-org-commons-e2-8c-32g-a8db2458-pts3",
+            "labels": {
+               "node.kubernetes.io/instance-type": "e2-standard-8",
+               "pool": "e2-8c-32g",
+               "topology.kubernetes.io/region": "us-central1",
+               "topology.kubernetes.io/zone": "us-central1-a",
+               "nodetype": "spot"
+            }
+         },
+         "spec": {},
+         "status": {
+            "capacity": {
+               "cpu": "8",
+               "ephemeral-storage": "98831908Ki",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "32879828Ki",
+               "pods": 200
+            },
+            "allocatable": {
+               "cpu": "7910m",
+               "ephemeral-storage": "47060071478",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "29084884Ki",
+               "pods": 200
+            },
+            "nodeInfo": {
+               "architecture": "amd64",
+               "bootID": "00057abc-3866-4789-93fb-04cccd1169a0",
+               "containerRuntimeVersion": "containerd://1.7.2",
+               "kernelVersion": "5.15.120+",
+               "kubeProxyVersion": "v1.27.4-gke.900",
+               "kubeletVersion": "v1.27.4-gke.900",
+               "machineID": "597c8ee802ce40f585471afd175ad05b",
+               "operatingSystem": "linux",
+               "osImage": "Container-Optimized OS from Google",
+               "systemUUID": "e22f282a-1d53-4370-a5c4-a31064878f56"
+            },
+            "phase": "Running",
+            "conditions": [
+               {
+                  "type": "Ready",
+                  "status": "True"
+               }
+            ]
+         }
+      },
+      {
+         "apiVersion": "v1",
+         "kind": "Node",
+         "metadata": {
+            "name": "gke-cluster-org-commons-e2-8c-32g-a8db2458-pts4",
+            "labels": {
+               "node.kubernetes.io/instance-type": "e2-standard-8",
+               "pool": "e2-8c-32g",
+               "topology.kubernetes.io/region": "us-central1",
+               "topology.kubernetes.io/zone": "us-central1-a",
+               "nodetype": "spot"
+            }
+         },
+         "spec": {},
+         "status": {
+            "capacity": {
+               "cpu": "8",
+               "ephemeral-storage": "98831908Ki",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "32879828Ki",
+               "pods": 200
+            },
+            "allocatable": {
+               "cpu": "7910m",
+               "ephemeral-storage": "47060071478",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "29084884Ki",
+               "pods": 200
+            },
+            "nodeInfo": {
+               "architecture": "amd64",
+               "bootID": "865c5a29-7584-42f4-9b74-6cf63fde3f9a",
+               "containerRuntimeVersion": "containerd://1.7.2",
+               "kernelVersion": "5.15.120+",
+               "kubeProxyVersion": "v1.27.4-gke.900",
+               "kubeletVersion": "v1.27.4-gke.900",
+               "machineID": "e165ef2e6e9d48f48a7e3672334f6384",
+               "operatingSystem": "linux",
+               "osImage": "Container-Optimized OS from Google",
+               "systemUUID": "f16e797a-7158-44d4-b4a0-4dcb3724c467"
+            },
+            "phase": "Running",
+            "conditions": [
+               {
+                  "type": "Ready",
+                  "status": "True"
+               }
+            ]
+         }
+      },
+      {
+         "apiVersion": "v1",
+         "kind": "Node",
+         "metadata": {
+            "name": "gke-cluster-org-commons-e2-8c-32g-a8db2458-pts5",
+            "labels": {
+               "node.kubernetes.io/instance-type": "e2-standard-8",
+               "pool": "e2-8c-32g",
+               "topology.kubernetes.io/region": "us-central1",
+               "topology.kubernetes.io/zone": "us-central1-a",
+               "nodetype": "spot"
+            }
+         },
+         "spec": {},
+         "status": {
+            "capacity": {
+               "cpu": "8",
+               "ephemeral-storage": "98831908Ki",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "32879828Ki",
+               "pods": 200
+            },
+            "allocatable": {
+               "cpu": "7910m",
+               "ephemeral-storage": "47060071478",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "29084884Ki",
+               "pods": 200
+            },
+            "nodeInfo": {
+               "architecture": "amd64",
+               "bootID": "f5740cbe-5576-486a-a1dd-4499ef43df20",
+               "containerRuntimeVersion": "containerd://1.7.2",
+               "kernelVersion": "5.15.120+",
+               "kubeProxyVersion": "v1.27.4-gke.900",
+               "kubeletVersion": "v1.27.4-gke.900",
+               "machineID": "341b621027a94a45b2eea4409ab20bc6",
+               "operatingSystem": "linux",
+               "osImage": "Container-Optimized OS from Google",
+               "systemUUID": "85ddac24-f554-40fc-8661-1f4f40f0f8bb"
+            },
+            "phase": "Running",
+            "conditions": [
+               {
+                  "type": "Ready",
+                  "status": "True"
+               }
+            ]
+         }
+      },
+      {
+         "apiVersion": "v1",
+         "kind": "Node",
+         "metadata": {
+            "name": "gke-cluster-org-commons-e2-8c-32g-a8db2458-pts6",
+            "labels": {
+               "node.kubernetes.io/instance-type": "e2-standard-8",
+               "pool": "e2-8c-32g",
+               "topology.kubernetes.io/region": "us-central1",
+               "topology.kubernetes.io/zone": "us-central1-a",
+               "nodetype": "spot"
+            }
+         },
+         "spec": {},
+         "status": {
+            "capacity": {
+               "cpu": "8",
+               "ephemeral-storage": "98831908Ki",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "32879828Ki",
+               "pods": 200
+            },
+            "allocatable": {
+               "cpu": "7910m",
+               "ephemeral-storage": "47060071478",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "29084884Ki",
+               "pods": 200
+            },
+            "nodeInfo": {
+               "architecture": "amd64",
+               "bootID": "6d227e7e-2de4-4608-b11c-637acae9459c",
+               "containerRuntimeVersion": "containerd://1.7.2",
+               "kernelVersion": "5.15.120+",
+               "kubeProxyVersion": "v1.27.4-gke.900",
+               "kubeletVersion": "v1.27.4-gke.900",
+               "machineID": "2a6c2a8bce774804bcbd401f7dde5513",
+               "operatingSystem": "linux",
+               "osImage": "Container-Optimized OS from Google",
+               "systemUUID": "d55736d1-63fb-404b-8fb8-8709fa4d4b2e"
+            },
+            "phase": "Running",
+            "conditions": [
+               {
+                  "type": "Ready",
+                  "status": "True"
+               }
+            ]
+         }
+      },
+      {
+         "apiVersion": "v1",
+         "kind": "Node",
+         "metadata": {
+            "name": "gke-cluster-org-commons-e2-8c-32g-a8db2458-pts7",
+            "labels": {
+               "node.kubernetes.io/instance-type": "e2-standard-8",
+               "pool": "e2-8c-32g",
+               "topology.kubernetes.io/region": "us-central1",
+               "topology.kubernetes.io/zone": "us-central1-a",
+               "nodetype": "spot"
+            }
+         },
+         "spec": {},
+         "status": {
+            "capacity": {
+               "cpu": "8",
+               "ephemeral-storage": "98831908Ki",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "32879828Ki",
+               "pods": 200
+            },
+            "allocatable": {
+               "cpu": "7910m",
+               "ephemeral-storage": "47060071478",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "29084884Ki",
+               "pods": 200
+            },
+            "nodeInfo": {
+               "architecture": "amd64",
+               "bootID": "11d19a7f-05e2-4247-8a8e-3acf109befca",
+               "containerRuntimeVersion": "containerd://1.7.2",
+               "kernelVersion": "5.15.120+",
+               "kubeProxyVersion": "v1.27.4-gke.900",
+               "kubeletVersion": "v1.27.4-gke.900",
+               "machineID": "48e8299893704959b84641479dbd673b",
+               "operatingSystem": "linux",
+               "osImage": "Container-Optimized OS from Google",
+               "systemUUID": "2610ef0b-0bb0-4feb-8a24-c91527a47592"
+            },
+            "phase": "Running",
+            "conditions": [
+               {
+                  "type": "Ready",
+                  "status": "True"
+               }
+            ]
+         }
+      },
+      {
+         "apiVersion": "v1",
+         "kind": "Node",
+         "metadata": {
+            "name": "gke-cluster-org-commons-e2-8c-32g-a8db2458-pts8",
+            "labels": {
+               "node.kubernetes.io/instance-type": "e2-standard-8",
+               "pool": "e2-8c-32g",
+               "topology.kubernetes.io/region": "us-central1",
+               "topology.kubernetes.io/zone": "us-central1-a",
+               "nodetype": "spot"
+            }
+         },
+         "spec": {},
+         "status": {
+            "capacity": {
+               "cpu": "8",
+               "ephemeral-storage": "98831908Ki",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "32879828Ki",
+               "pods": 200
+            },
+            "allocatable": {
+               "cpu": "7910m",
+               "ephemeral-storage": "47060071478",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "29084884Ki",
+               "pods": 200
+            },
+            "nodeInfo": {
+               "architecture": "amd64",
+               "bootID": "54ab2066-85e1-4fa0-a5c0-6b3a92695ae0",
+               "containerRuntimeVersion": "containerd://1.7.2",
+               "kernelVersion": "5.15.120+",
+               "kubeProxyVersion": "v1.27.4-gke.900",
+               "kubeletVersion": "v1.27.4-gke.900",
+               "machineID": "093016d19ea248f58e3d01d72d46d2a6",
+               "operatingSystem": "linux",
+               "osImage": "Container-Optimized OS from Google",
+               "systemUUID": "f3ff9aa5-e3ec-440e-91c5-93b510ac15d5"
+            },
+            "phase": "Running",
+            "conditions": [
+               {
+                  "type": "Ready",
+                  "status": "True"
+               }
+            ]
+         }
+      },
+      {
+         "apiVersion": "v1",
+         "kind": "Node",
+         "metadata": {
+            "name": "gke-cluster-org-commons-e2-8c-32g-a8db2458-pts10",
+            "labels": {
+               "node.kubernetes.io/instance-type": "e2-standard-8",
+               "pool": "e2-8c-32g",
+               "topology.kubernetes.io/region": "us-central1",
+               "topology.kubernetes.io/zone": "us-central1-a",
+               "nodetype": "spot"
+            }
+         },
+         "spec": {},
+         "status": {
+            "capacity": {
+               "cpu": "8",
+               "ephemeral-storage": "98831908Ki",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "32879828Ki",
+               "pods": 200
+            },
+            "allocatable": {
+               "cpu": "7910m",
+               "ephemeral-storage": "47060071478",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "29084884Ki",
+               "pods": 200
+            },
+            "nodeInfo": {
+               "architecture": "amd64",
+               "bootID": "bf656855-035a-4450-9f42-c6ff565c976c",
+               "containerRuntimeVersion": "containerd://1.7.2",
+               "kernelVersion": "5.15.120+",
+               "kubeProxyVersion": "v1.27.4-gke.900",
+               "kubeletVersion": "v1.27.4-gke.900",
+               "machineID": "f98c81ecfb35421ca42e6ea6f516b72e",
+               "operatingSystem": "linux",
+               "osImage": "Container-Optimized OS from Google",
+               "systemUUID": "f581983a-d69d-40c5-877b-8917090716d6"
+            },
+            "phase": "Running",
+            "conditions": [
+               {
+                  "type": "Ready",
+                  "status": "True"
+               }
+            ]
+         }
+      },
+      {
+         "apiVersion": "v1",
+         "kind": "Node",
+         "metadata": {
+            "name": "gke-cluster-org-commons-e2-8c-32g-a8db2458-pts11",
+            "labels": {
+               "node.kubernetes.io/instance-type": "e2-standard-8",
+               "pool": "e2-8c-32g",
+               "topology.kubernetes.io/region": "us-central1",
+               "topology.kubernetes.io/zone": "us-central1-a",
+               "nodetype": "spot"
+            }
+         },
+         "spec": {},
+         "status": {
+            "capacity": {
+               "cpu": "8",
+               "ephemeral-storage": "98831908Ki",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "32879828Ki",
+               "pods": 200
+            },
+            "allocatable": {
+               "cpu": "7910m",
+               "ephemeral-storage": "47060071478",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "29084884Ki",
+               "pods": 200
+            },
+            "nodeInfo": {
+               "architecture": "amd64",
+               "bootID": "be1da791-34c5-4158-a616-cab9806d4737",
+               "containerRuntimeVersion": "containerd://1.7.2",
+               "kernelVersion": "5.15.120+",
+               "kubeProxyVersion": "v1.27.4-gke.900",
+               "kubeletVersion": "v1.27.4-gke.900",
+               "machineID": "fdec57d752314c25acdfbd85b080c509",
+               "operatingSystem": "linux",
+               "osImage": "Container-Optimized OS from Google",
+               "systemUUID": "8925beba-8536-44ba-b9c9-6c3e87dedc8b"
+            },
+            "phase": "Running",
+            "conditions": [
+               {
+                  "type": "Ready",
+                  "status": "True"
+               }
+            ]
+         }
+      },
+      {
+         "apiVersion": "v1",
+         "kind": "Node",
+         "metadata": {
+            "name": "gke-cluster-org-commons-e2-8c-32g-a8db2458-pts12",
+            "labels": {
+               "node.kubernetes.io/instance-type": "e2-standard-8",
+               "pool": "e2-8c-32g",
+               "topology.kubernetes.io/region": "us-central1",
+               "topology.kubernetes.io/zone": "us-central1-a",
+               "nodetype": "spot"
+            }
+         },
+         "spec": {},
+         "status": {
+            "capacity": {
+               "cpu": "8",
+               "ephemeral-storage": "98831908Ki",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "32879828Ki",
+               "pods": 200
+            },
+            "allocatable": {
+               "cpu": "7910m",
+               "ephemeral-storage": "47060071478",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "29084884Ki",
+               "pods": 200
+            },
+            "nodeInfo": {
+               "architecture": "amd64",
+               "bootID": "b6746646-c66a-494d-aba0-019806dd7447",
+               "containerRuntimeVersion": "containerd://1.7.2",
+               "kernelVersion": "5.15.120+",
+               "kubeProxyVersion": "v1.27.4-gke.900",
+               "kubeletVersion": "v1.27.4-gke.900",
+               "machineID": "931d4b6057d34a849a022dcee3a73ee3",
+               "operatingSystem": "linux",
+               "osImage": "Container-Optimized OS from Google",
+               "systemUUID": "05fac910-93a8-4b02-be20-7aaa9f095318"
+            },
+            "phase": "Running",
+            "conditions": [
+               {
+                  "type": "Ready",
+                  "status": "True"
+               }
+            ]
+         }
+      },
+      {
+         "apiVersion": "v1",
+         "kind": "Node",
+         "metadata": {
+            "name": "gke-cluster-org-commons-e2-8c-32g-a8db2458-pts13",
+            "labels": {
+               "node.kubernetes.io/instance-type": "e2-standard-8",
+               "pool": "e2-8c-32g",
+               "topology.kubernetes.io/region": "us-central1",
+               "topology.kubernetes.io/zone": "us-central1-a",
+               "nodetype": "spot"
+            }
+         },
+         "spec": {},
+         "status": {
+            "capacity": {
+               "cpu": "8",
+               "ephemeral-storage": "98831908Ki",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "32879828Ki",
+               "pods": 200
+            },
+            "allocatable": {
+               "cpu": "7910m",
+               "ephemeral-storage": "47060071478",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "29084884Ki",
+               "pods": 200
+            },
+            "nodeInfo": {
+               "architecture": "amd64",
+               "bootID": "4600acbc-68d2-4358-acdf-38d7058e5859",
+               "containerRuntimeVersion": "containerd://1.7.2",
+               "kernelVersion": "5.15.120+",
+               "kubeProxyVersion": "v1.27.4-gke.900",
+               "kubeletVersion": "v1.27.4-gke.900",
+               "machineID": "adf8a51fc43344699bcd7a26bac52113",
+               "operatingSystem": "linux",
+               "osImage": "Container-Optimized OS from Google",
+               "systemUUID": "898186b1-72d9-4391-a996-97870e388c06"
+            },
+            "phase": "Running",
+            "conditions": [
+               {
+                  "type": "Ready",
+                  "status": "True"
+               }
+            ]
+         }
+      },
+      {
+         "apiVersion": "v1",
+         "kind": "Node",
+         "metadata": {
+            "name": "gke-cluster-org-commons-e2-8c-32g-a8db2458-pts14",
+            "labels": {
+               "node.kubernetes.io/instance-type": "e2-standard-8",
+               "pool": "e2-8c-32g",
+               "topology.kubernetes.io/region": "us-central1",
+               "topology.kubernetes.io/zone": "us-central1-a",
+               "nodetype": "spot"
+            }
+         },
+         "spec": {},
+         "status": {
+            "capacity": {
+               "cpu": "8",
+               "ephemeral-storage": "98831908Ki",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "32879828Ki",
+               "pods": 200
+            },
+            "allocatable": {
+               "cpu": "7910m",
+               "ephemeral-storage": "47060071478",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "29084884Ki",
+               "pods": 200
+            },
+            "nodeInfo": {
+               "architecture": "amd64",
+               "bootID": "67e5931e-5b9e-4358-89b2-8c2e5f3a60f0",
+               "containerRuntimeVersion": "containerd://1.7.2",
+               "kernelVersion": "5.15.120+",
+               "kubeProxyVersion": "v1.27.4-gke.900",
+               "kubeletVersion": "v1.27.4-gke.900",
+               "machineID": "109e849b3a334d0f970c6805b66219e0",
+               "operatingSystem": "linux",
+               "osImage": "Container-Optimized OS from Google",
+               "systemUUID": "0cf3f0ff-5184-487f-b611-541c59856988"
+            },
+            "phase": "Running",
+            "conditions": [
+               {
+                  "type": "Ready",
+                  "status": "True"
+               }
+            ]
+         }
+      },
+      {
+         "apiVersion": "v1",
+         "kind": "Node",
+         "metadata": {
+            "name": "additional-node",
+            "labels": {
+               "node.kubernetes.io/instance-type": "e2-standard-4",
+               "pool": "e2-4c-16g",
+               "topology.kubernetes.io/region": "us-central1",
+               "topology.kubernetes.io/zone": "us-central1-f",
+               "nodetype": "spot"
+            }
+         },
+         "spec": {},
+         "status": {
+            "capacity": {
+               "cpu": "4",
+               "ephemeral-storage": "98831908Ki",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "16390304Ki",
+               "pods": 200
+            },
+            "allocatable": {
+               "cpu": "3920m",
+               "ephemeral-storage": "47060071478",
+               "hugepages-1Gi": "0",
+               "hugepages-2Mi": "0",
+               "memory": "13601952Ki",
+               "pods": 200
+            },
+            "nodeInfo": {
+               "architecture": "amd64",
+               "bootID": "c8be6e7e-34ae-4568-86d1-4f77f0076b2a",
+               "containerRuntimeVersion": "containerd://1.7.2",
+               "kernelVersion": "5.15.120+",
+               "kubeProxyVersion": "v1.27.4-gke.900",
+               "kubeletVersion": "v1.27.4-gke.900",
+               "machineID": "a2ea1d57c26940bc8f32a04623de590g",
+               "operatingSystem": "linux",
+               "osImage": "Container-Optimized OS from Google",
+               "systemUUID": "56da8ca4-fc89-410d-9c29-b3a087fd302e"
+            },
+            "phase": "Running",
+            "conditions": [
+               {
+                  "type": "Ready",
+                  "status": "True"
+               }
+            ]
+         }
+      }
+   ],
+   "kind": "List",
+   "metadata": {
+      "resourceVersion": ""
+   }
+}
